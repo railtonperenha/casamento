@@ -259,7 +259,7 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
 
     /* Menu */
     .menu-nav {
@@ -311,6 +311,16 @@ body {
         width: 80%;
     }
 
+    #contador {
+        font-family: var(--fonte-titulo);
+        font-size: 15px;
+        margin-top: -70px;
+        margin-bottom: 110px;
+        padding: 10px;
+        font-weight: bold;
+        align-self: center;
+    }
+
     /* Conteúdo Secundário */
     .conteudo-secundario {
         max-width: 100%;
@@ -352,7 +362,7 @@ body {
     }
 
     .data-horas {
-        width: 50%;
+        width: 55%;
     }
 
     #janeiro {
@@ -390,15 +400,15 @@ body {
         font-family: var(--fonte-titulo);
         font-size: 15px;
     }
-    
-}
 
-@media (min-width: 431px) {
-    .gallery {
-        max-width: 50vw;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        padding: 0;
-        align-self: center;
+    /* Rodapé */
+    .rodape {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .texto-rodape {
+        padding-top: 15px;
+        border-top: 1px solid var(--cor-2);
     }
 }
