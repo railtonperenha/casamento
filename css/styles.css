@@ -259,7 +259,7 @@ body {
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 770px) {
+@media screen and (max-width: 800px) {
 
     .menu-nav {
         display: none;
