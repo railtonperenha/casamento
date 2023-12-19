@@ -259,7 +259,7 @@ body {
 }
 
 
-@media (max-width: 770px) {
+@media screen and (min-width: 360px) and (max-width: 770px) {
 
     .menu-nav {
         display: none;
@@ -309,8 +309,8 @@ body {
     }
 
     #contador {
-        margin-top: -150px;
-        font-size: 30px;
+        margin-top: -110px;
+        font-size: 20px;
     }
 
     .conteudo-secundario {
@@ -325,141 +325,11 @@ body {
     }
 
     .gallery {
-        max-width: 70%;
+        max-width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         gap: 1rem; /* Ajustado o espaçamento entre as imagens */
         align-self: center;
-    }
-
-    .conteudo-informacao {
-        max-width: 100%;
-        padding: 2rem 0;
-        margin: 0 auto;
-    }
-
-    .texto-informacao {
-        font-size: 1rem !important;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .data {
-        width: 100%;
-    }
-
-    .data-horas {
-        width: 50%;
-    }
-
-    #janeiro {
-        font-weight: 500;
-        font-family: var(--fonte-titulo);
-        font-size: 1rem;
-    }
-
-    #sabado {
-        font-family: var(--fonte-titulo);
-        font-size: 1.2rem;
-        font-weight: bold;
-        border-top: 1px solid var(--cor-2);
-        border-bottom: 1px solid var(--cor-2);
-        align-self: flex-start;
-        padding: 0;
-    }
-
-    #dia {
-        font-size: 2rem;
-    }
-
-    #horas {
-        font-family: var(--fonte-titulo);
-        font-size: 1.2rem;
-        font-weight: bold;
-        border-top: 1px solid var(--cor-2);
-        border-bottom: 1px solid var(--cor-2);
-        align-self: flex-start;
-        padding: 0;
-    }
-
-    #ano {
-        font-weight: 500;
-        font-family: var(--fonte-titulo);
-        font-size: 1rem;
-    }
-    
-}
-
-@media (max-width: 375px) {
-
-    .menu-nav {
-        display: none;
-    }
-
-    .menu-nav.active {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 68px;
-        left: 0;
-        width: 100%;
-        background-color: white;
-        z-index: 1;
-    }
-
-    .menu-item {
-        padding: 1rem;
-        text-align: center;
-    }
-
-    .hamburguer-btn {
-        display: block;
-        position: fixed;
-        top: 10px;
-        right: 10px;
-        z-index: 2;
-    }
-
-    .conteudo {
-        margin-left: 0 !important;
-    }
-
-    .conteudo-principal {
-        max-width: 90% !important;
-        margin: auto;
-    }
-
-    .texto-conteudo-principal {
-        font-size: 15px !important;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .imagem-conteudo-principal {
-        width: 100%;
-    }
-
-    #contador {
-        margin-top: -90px;
-        font-size: 18px;
-    }
-
-    .conteudo-secundario {
-        max-width: 100%;
-        padding: 2rem 0;
-    }
-
-    .texto-conteudo-secundario {
-        font-size: 1rem !important;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .gallery {
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Reduzi o tamanho mínimo */
-        gap: 1rem; /* Ajustado o espaçamento entre as imagens */
     }
 
     .conteudo-informacao {
